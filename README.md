@@ -25,14 +25,25 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- The purpose of the game
+
+The purpose of this game is to have the user guess the secret number in a given number of attemps. There is hints available too.
+
+- Bugs found:
+
+   - The difficult levels were mismatched.
+   - The hints were backward; instead of 'go lower', it would say 'go higher' and vice versa.
+   - The 'new game' button didn't do anything to remove the 'Game Over' signal.
+   - The 'new game' would choose a secret from 1 to 100 regardless of the difficulty selected.
+
+- Bug fixes
+   - I wrote some tests
+   - Fixed the difficulty level mismatch.
+   - Fixed the backward hint bug.
+   - Fix the UI problem with the new game button.
+   - Fixed the secret generation bug associated with new game secret generation.
+
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
-
-## 🚀 Stretch Features
-
-- [ ] [If you choose to complete Challenge 4, insert a screenshot of your Enhanced Game UI here]
+![alt text](image.png)
