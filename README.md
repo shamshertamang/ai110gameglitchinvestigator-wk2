@@ -47,3 +47,4 @@ The purpose of this game is to have the user guess the secret number in a given 
 ## 📸 Demo
 
 ![alt text](image.png)
+![alt text](image-1.png)
